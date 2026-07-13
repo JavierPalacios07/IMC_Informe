@@ -7,9 +7,21 @@ int main(void){
 	
 	printf("\n   Ingrese el peso en kg: ");
 	scanf("%f", &peso);
+
+	while(peso <= 0){
+		printf("Numero no valido: ");
+		printf("\n   Ingrese el peso en kg: ");
+		scanf("%f", &peso);
+	}
 	
 	printf("   Ingrese la altura en metros: ");
 	scanf("%f", &altura);
+
+	while(altura <= 0){
+		printf("Numero no valido: ");
+		printf("\n   Ingrese la altura en metros: ");
+		scanf("%f", &altura);
+	}
 	
 	IMC = peso / (altura * altura);
 	
