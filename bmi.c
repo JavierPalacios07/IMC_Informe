@@ -9,7 +9,7 @@ int main(void){
 	scanf("%f", &peso);
 
 	while(peso <= 0){
-		printf("Numero no valido: ");
+		printf("   Numero no valido: ");
 		printf("\n   Ingrese el peso en kg: ");
 		scanf("%f", &peso);
 	}
@@ -18,7 +18,7 @@ int main(void){
 	scanf("%f", &altura);
 
 	while(altura <= 0){
-		printf("Numero no valido: ");
+		printf("   Numero no valido: ");
 		printf("\n   Ingrese la altura en metros: ");
 		scanf("%f", &altura);
 	}
