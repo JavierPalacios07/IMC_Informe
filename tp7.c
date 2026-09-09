@@ -12,16 +12,16 @@ int main(){
 	int n_Caro = 0;
 	int n_Barato = 0;
 	
-	printf("Ingrese %d productos, se solicitar· el cÛdigo y precio: \n", TAM);
+	printf("Ingrese %d productos, se solicitar√° el c√≥digo y precio: \n", TAM);
 	
 	for (int i = 0; i < TAM; i++){
 		
 		do{
-			printf("\nIngrese el cÛdigo de barras (1-999999999): ");
+			printf("\nIngrese el c√≥digo de barras (1-999999999): ");
 			scanf("%d", &codigos[i]);
 			
 			if (codigos[i] <= 0 || codigos[i] > 999999999)
-				printf("\nError. El cÛdigo de barras debe estar entre 1 y 999999999\n");
+				printf("\nError. El c√≥digo de barras debe estar entre 1 y 999999999\n");
 			
 		} while(codigos[i] <= 0 || codigos[i] > 999999999);
 		
