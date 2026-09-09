@@ -16,14 +16,14 @@ int main() {
 	float area, perimetro;
 	
 	do{
-		printf("Ingrese la figura que desea calcular (1: rectángulo, 2: círculo): ");
+		printf("Ingrese la figura que desea calcular (1: rectÃ¡ngulo, 2: cÃ­rculo): ");
 		scanf("%d", &opcion);
 	} while (opcion < 1 || opcion > 2 );
 	
 	switch(opcion){
 		
 		case 1:
-			printf("\nOpción de rectángulo seleccionada");
+			printf("\nOpciÃ³n de rectÃ¡ngulo seleccionada");
 			printf("\n\nIngrese la longitud del rectangulo: ");
 			scanf("%f", &longitud);
 			printf("\nIngrese la altura del rectangulo: ");
@@ -34,7 +34,7 @@ int main() {
 			
 			break;
 		case 2:
-			printf("\nOpción de circulo seleccionada");
+			printf("\nOpciÃ³n de circulo seleccionada");
 			printf("\n\nIngrese el radio del circulo: ");
 			scanf("%f", &radio);
 			
