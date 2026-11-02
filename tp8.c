@@ -40,7 +40,7 @@ int cuantas_piezas(int max) {
 	int n;  
 	
 	do {   
-		printf("Cu·ntas piezas ingresar·? ");    
+		printf("Cu√°ntas piezas ingresar√°? ");    
 		scanf("%d", &n);  
 	} while (n < 0 || n > max); 
 	
